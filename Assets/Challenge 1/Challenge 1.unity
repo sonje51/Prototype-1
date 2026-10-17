@@ -1063,7 +1063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0232a093d67e448b7a80e945acf8e227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 18
+  baseSpeed: 5
   rotationSpeed: 75
   MoveAction:
     m_Name: Move
@@ -1083,7 +1083,7 @@ MonoBehaviour:
       m_Flags: 4
     - m_Name: up
       m_Id: 85c9def1-63e2-4336-bb01-9a7e185cbb37
-      m_Path: <Keyboard>/upArrow
+      m_Path: <Joystick>/stick/up
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -1091,7 +1091,7 @@ MonoBehaviour:
       m_Flags: 8
     - m_Name: down
       m_Id: f85571c9-2d52-4b69-877c-fd96e3c203ff
-      m_Path: <Keyboard>/downArrow
+      m_Path: <Joystick>/stick/down
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -1099,7 +1099,7 @@ MonoBehaviour:
       m_Flags: 8
     - m_Name: left
       m_Id: a6085390-b2cf-45d9-ad15-07ff6da61e3c
-      m_Path: 
+      m_Path: <Joystick>/stick/left
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -1107,7 +1107,7 @@ MonoBehaviour:
       m_Flags: 8
     - m_Name: right
       m_Id: ca1629be-c25e-4f64-958c-9fd3eb7c85cc
-      m_Path: 
+      m_Path: <Joystick>/stick/right
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -1115,6 +1115,9 @@ MonoBehaviour:
       m_Flags: 8
     m_Flags: 0
     m_Priority: 0
+  speed: 0
+  verticalInput: 0
+  moveInput: {x: 0, y: 0}
 --- !u!1 &899755176
 GameObject:
   m_ObjectHideFlags: 0
